@@ -1,0 +1,27 @@
+/* These styles will override the default styles */
+
+.bpw-layout {
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bpw-header-container {
+    background-color:mediumturquoise;
+    border-top-left-radius: 20px;
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:lightseagreen;
+}
+  
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* More custom styles can also be added here */
